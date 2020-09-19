@@ -1,11 +1,10 @@
-# vue-hangman
-
 <h1 align="center">
   Vue 3 Hangman Game
 </h1>
 
 <h4 align="center">Building Traversy Media Hangman game in Vue 3 using the Composition API.</h4>
 
+<br />
 <br />
 
 <p align="center"><a href="https://www.youtube.com/watch?v=8zXvmmn9qVo" target="_blank"><img src="https://img.youtube.com/vi/8zXvmmn9qVo/maxresdefault.jpg" 
