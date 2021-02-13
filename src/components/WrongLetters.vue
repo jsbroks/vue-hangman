@@ -1,5 +1,5 @@
 <template>
-  <div class="wrong-letters-conta iner">
+  <div class="wrong-letters-container">
     <div class="wrong-letters">
       <p v-show="wrongLetters.length > 0">Wrong</p>
       <span v-for="(letter, i) in wrongLetters" :key="letter">

@@ -18,7 +18,7 @@ import Header from './components/Header'
 import Figure from './components/Figure'
 import WrongLetters from './components/WrongLetters'
 import Word from './components/Word'
-import Popup from './components/Popup'
+import Popup from './components/Popup'  
 import Notification from './components/Notification'
 
 import onKeydown from './assets/onKeydown'
@@ -59,7 +59,7 @@ export default {
 
     onKeydown(event => {
       const letter = event.key.toLowerCase()
-      if (event.keyCode < 65 && event.keyCode > 90) return
+      if (event.keyCode < 65 || event.keyCode > 90) return
       if (status.value) return
       if (guessedLetters.value.includes(letter)) {
         showNotification()
